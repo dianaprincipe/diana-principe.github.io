@@ -18,9 +18,9 @@ header {
 }
 
 h1.typing {
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Monaco', Monospace;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 20px;
     background-clip: text;
     text-align: left;
     padding: 2rem;

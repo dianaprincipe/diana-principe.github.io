@@ -102,6 +102,8 @@ ul {
     padding-left: 11.25px;
     padding-right: 11.25px;
     padding-top: 7.5px;
+    bottom: 20px;
+    left: 20px;
     border-radius: 32px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     background-color: #ff40bd; /* Button background color */
     background-size: auto;
@@ -113,7 +115,6 @@ ul {
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     width: 180px; /* Fixed width */
     height: auto; /* Fixed height */
     align-items: center; /* Center vertically */
@@ -126,6 +127,8 @@ ul {
     padding-left: 11.25px;
     padding-right: 11.25px;
     padding-top: 7.5px;
+    bottom: 20px;
+    left: 20px;
     border-radius: 32px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     background-color: #ffaa1b; /* Button background color */
     background-size: auto;
@@ -137,7 +140,6 @@ ul {
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     width: 180px; /* Fixed width */
     height: 30px; /* Fixed height */
     align-items: center; /* Center vertically */

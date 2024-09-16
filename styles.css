@@ -92,13 +92,13 @@ nav a {
 /* Styles for the image */
 .image-link {
     position: absolute;
-    top: 200px;
+    top: 180px;
     right: 150px;
     text-decoration: none; /* Removes underline from link */
 }
 
 .rocket-image {
-    width: 500px; /* Adjust size as needed */
+    width: 470px; /* Adjust size as needed */
     height: auto;
     display: block;
 }

@@ -93,7 +93,7 @@ nav a {
 .image-link {
     position: absolute;
     top: 170px;
-    right: 100px;
+    right: 50px;
     text-decoration: none; /* Removes underline from link */
 }
 
@@ -108,13 +108,13 @@ nav a {
 /* Styles for the image */
 .bomb-link {
     position: absolute;
-    top: 170px;
-    right: 150px;
+    top: 200px;
+    right: 200px;
     text-decoration: none; /* Removes underline from link */
 }
 
 .bomb-image {
-    width: 400px; /* Adjust size as needed */
+    width: 200px; /* Adjust size as needed */
     height: auto;
     display: block;
 }

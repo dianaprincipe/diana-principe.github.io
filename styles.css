@@ -29,11 +29,11 @@ header h1 {
 
 header p {
 
-    color: var(--Text-Primary, #0A0A0A);
+    color: var(--Text-Primary, ##fff42c);
     font-feature-settings: 'liga' off, 'clig' off;
 
     /* B2/Geist/14/Medium */
-    font-family: Geist;
+    font-family: 'League Spartan', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;

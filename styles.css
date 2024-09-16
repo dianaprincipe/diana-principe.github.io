@@ -113,8 +113,8 @@ ul {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    width: 202px; /* Fixed width */
-    height: 57px; /* Fixed height */
+    width: 120px; /* Fixed width */
+    height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
@@ -136,8 +136,8 @@ ul {
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
     cursor: pointer; /* Pointer cursor on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
-    width: 202px; /* Fixed width */
-    height: 57px; /* Fixed height */
+    width: 120px; /* Fixed width */
+    height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */

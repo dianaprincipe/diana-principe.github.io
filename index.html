@@ -3,11 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
-    <link rel="stylesheet" href="style.css">
+    <title>{{ page.title | default: site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my GitHub Pages site.</p>
+    <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relative_url }}">Home</a></li>
+                <li><a href="{{ "/about" | relative_url }}">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,12 @@
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: #1e1e1e;
+    border-bottom: 2px solid #03a9f4;
+}
+a {
+    color: #03a9f4;
+}

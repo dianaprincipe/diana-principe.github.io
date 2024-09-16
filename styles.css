@@ -1,5 +1,5 @@
 body {
-    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
+    background: #ffffff;
     font-family: 'Roboto Mono';
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ header {
 
 h1.typing {
     font-family: 'Monaco', Monospace;
-    color: #ffffff;
+    color: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     font-size: 20px;
     background-clip: text;
     text-align: left;
@@ -52,7 +52,7 @@ h1.typing {
 header p {
 
     color: #ffffff;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Monaco', Monospace;
     font-size: 40px;
     font-weight: 500;
     line-height: 100%;

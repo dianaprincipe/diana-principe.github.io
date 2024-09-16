@@ -30,6 +30,10 @@ font-feature-settings: 'liga' off, 'clig' off;
 }
 
 header p {
+
+color: var(--Text-Primary, #0A0A0A);
+font-feature-settings: 'liga' off, 'clig' off;
+
 /* B1/Geist/16/Regular */
 font-family: Geist;
 font-size: 16px;

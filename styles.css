@@ -160,9 +160,9 @@ ul {
 
 /* Hover effect */
 .square-button2:hover {
-    background-color: #d9a103; /* Darker background on hover */
+    background-color: #6b049c; /* Darker background on hover */
     color: #ffffff; /* Lighter text color on hover */
-    border-color: #d9a103; /* Border color change on hover */
+    border-color: #6b049c; /* Border color change on hover */
 }
 
 

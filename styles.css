@@ -17,13 +17,30 @@ header {
     
 }
 
-header h1 {
+header h1.typing {
     font-family: 'Roboto Mono';
     color: #ffffff;
     font-size: 18px;
     background-clip: text;
     text-align: left;
     padding: 2rem;
+    overflow: hidden; /* Ensures text is clipped when animating */
+    white-space: nowrap; /* Keeps the text in one line */
+    border-right: 0.15em solid orange; /* The cursor effect */
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+
+/* Keyframes for typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Keyframes for blinking cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
 }
 
 header p {

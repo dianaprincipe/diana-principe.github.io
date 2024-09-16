@@ -28,6 +28,12 @@ header {
 header h1 {
 color: var(--Text-Primary, #0A0A0A);
 font-feature-settings: 'liga' off, 'clig' off;
+/* B1/Geist/16/Regular */
+font-family: Geist;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
 }
 
 header p {

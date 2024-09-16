@@ -136,7 +136,7 @@ ul {
     justify-content: center; /* Center horizontally */
     position: absolute;
     top: 500px;
-    left: 75px;
+    left: 70px;
 }
 
 .square-button2 {
@@ -164,7 +164,7 @@ ul {
     justify-content: center; /* Center horizontally */
     position: absolute;
     top: 500px;
-    left: 250px;
+    left: 300px;
 }
 
 /* Container for aligning buttons to the left */

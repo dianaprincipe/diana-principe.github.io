@@ -8,6 +8,9 @@ body {
 }
 
 header {
+    border-radius: rounded-lg;
+    border: 1px solid var(--Border-Default, #E5E5E5);
+    background: var(--Surface-Primary, #FFF);
     background-color: #D7CCC8;
     color: #3E2723;
     text-align: center;

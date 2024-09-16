@@ -1,16 +1,16 @@
 body {
     background: #ffffff;
-    font-family: 'Roboto Mono';
+    font-family: 'Monaco', Monospace;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Monaco', Monospace;
     font-size: medium;
     border-radius: rounded-lg;
-    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
+    background: #ffffff;
     color: #fff42c;
     text-align: center;
     padding: 2rem;

@@ -104,6 +104,7 @@ ul {
     border-radius: 8px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     border: 2px solid #3E2723; /* Border color */
     background-color: #ff40bd; /* Button background color */
+    background-size: auto;
     color: #3E2723; /* Text color */
     font-family: 'League Spartan', sans-serif; /* Font style */
     font-size: 16px; /* Font size */
@@ -126,6 +127,7 @@ ul {
     border-radius: 8px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     border: 2px solid #3E2723; /* Border color */
     background-color: #ffaa1b; /* Button background color */
+    background-size: auto;
     color: #3E2723; /* Text color */
     font-family: 'League Spartan', sans-serif; /* Font style */
     font-size: 16px; /* Font size */

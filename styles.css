@@ -8,13 +8,15 @@ body {
 }
 
 header {
-    /*background-color: #D7CCC8;
+    background-color: #D7CCC8;
     color: #3E2723;
     text-align: center;
     padding: 2rem;
     border-bottom: 2px solid #3E2723;
-    */
+    
+}
 
+header h1 {
     background: var(--unicorn-gradient, linear-gradient(90deg, #B732F5 0%, #FF85E3 34%, #65EDFF 100%));
     color: #3E2723;
     background-clip: text;
@@ -23,17 +25,6 @@ header {
     border-bottom: 2px solid #3E2723;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-header h1 {
-color: var(--Text-Primary, #0A0A0A);
-font-feature-settings: 'liga' off, 'clig' off;
-/* B1/Geist/16/Regular */
-font-family: Geist;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 160%; /* 25.6px */
 }
 
 header p {

@@ -136,7 +136,7 @@ ul {
     background-color: #ff40bd; /* Button background color */
     background-size: auto;
     color: #ffffff; /* Text color */
-    font-family: 'DM Sans', sans-serif; /* Font style */
+    font-family: 'Monaco', Monospace; /* Font style */
     font-size: 14px; /* Font size */
     font-weight: 600;
     text-align: center; /* Center text alignment */
@@ -164,7 +164,7 @@ ul {
     background-color: #ffaa1b; /* Button background color */
     background-size: auto;
     color: #ffffff; /* Text color */
-    font-family: 'DM Sans', sans-serif; /* Font style */
+    font-family: 'Monaco', Monospace; /* Font style */
     font-size: 14px; /* Font size */
     font-weight: 600;
     text-align: center; /* Center text alignment */

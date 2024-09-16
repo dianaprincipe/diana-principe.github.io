@@ -8,11 +8,17 @@ body {
 }
 
 header {
-    background-color: #D7CCC8;
+    /*background-color: #D7CCC8;
     color: #3E2723;
     text-align: center;
     padding: 2rem;
     border-bottom: 2px solid #3E2723;
+    */
+
+    background: var(--unicorn-gradient, linear-gradient(90deg, #B732F5 0%, #FF85E3 34%, #65EDFF 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header h1 {

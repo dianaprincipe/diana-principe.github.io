@@ -40,7 +40,7 @@ h1.typing {
 /* Keyframes for blinking cursor */
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: #3533cd; }
+    100% { border-color: #000000; }
 }
 
 /* Stop the cursor blinking after typing is done */

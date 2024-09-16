@@ -146,9 +146,9 @@ ul {
 
 /* Container for aligning buttons to the left */
 .button-container {
-    display: center; /* Use flexbox for alignment */
+    display: flex; /* Use flexbox for alignment */
     flex-direction: row; /* Stack buttons vertically */
-    align-items: flex-start; /* Align buttons to the left */
+    gap: 10px;
 }
 
 /* Hover effect */

@@ -27,7 +27,7 @@ h1.typing {
     overflow: hidden; /* Ensures text is clipped when animating */
     white-space: nowrap; /* Keeps the text in one line */
     border-right: 0.15em solid orange; /* The cursor effect */
-    animation: typing 5s steps(10, end), blink-caret 0.75s step-end infinite;
+    animation: typing 10s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 

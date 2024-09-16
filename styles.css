@@ -1,6 +1,6 @@
 body {
     background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
-    font-family: Geist;
+    font-family: 'Roboto Mono';
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    font-family: 'YAFdJmNtp_I 0';
+    font-family: 'Roboto Mono';
     color: #d6e0ed;
     background-clip: text;
     text-align: center;

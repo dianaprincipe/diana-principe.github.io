@@ -52,9 +52,10 @@ h1.typing {
 header p1 {
 
     ccolor: #000000;
-    font-family: 'Monaco', Monospace;
+    font-family: "Silkscreen", sans-serif;
+    font-style: normal;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 100%;
     position: absolute;
     text-align: left;

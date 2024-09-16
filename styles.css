@@ -49,7 +49,7 @@ h1.typing {
     animation: none; /* Stops the blinking effect */
 }
 
-header p {
+header p1 {
 
     ccolor: #000000;
     font-family: 'Monaco', Monospace;
@@ -59,7 +59,18 @@ header p {
     position: absolute;
     top: 300px;
     left: 70px;
+}
 
+header p2 {
+
+    ccolor: #000000;
+    font-family: 'Monaco', Monospace;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 100%;
+    position: absolute;
+    top: 330px;
+    left: 70px;
 }
 
 nav {

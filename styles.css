@@ -43,6 +43,12 @@ h1.typing {
     25% { border-color: white; }
 }
 
+/* Stop the cursor blinking after typing is done */
+.typing.done {
+    border-right: 0; /* Removes the cursor */
+    animation: none; /* Stops the blinking effect */
+}
+
 header p {
 
     color: #ffffff;

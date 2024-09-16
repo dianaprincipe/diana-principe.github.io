@@ -10,8 +10,7 @@ header {
     font-family: Geist;
     border-radius: rounded-lg;
     border: 1px solid var(--Border-Default, #E5E5E5);
-    background: var(--Surface-Primary, #FFF);
-    background-color: #FFFFFF;
+    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     color: #3E2723;
     text-align: center;
     padding: 2rem;
@@ -21,7 +20,6 @@ header {
 
 header h1 {
     font-family: Geist;
-    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     color: #3E2723;
     background-clip: text;
     text-align: center;

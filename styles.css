@@ -1,6 +1,5 @@
 body {
-    background-color: #DAA06D ;
-    color: #3E2723;
+    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     font-family: Geist;
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ header {
 
 header h1 {
     font-family: Geist;
-    background: var(--unicorn-gradient, linear-gradient(90deg, #B732F5 0%, #FF85E3 34%, #65EDFF 100%));
+    background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     color: #3E2723;
     background-clip: text;
     text-align: center;

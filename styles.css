@@ -83,7 +83,7 @@ nav a {
 }
 
 .rocket-image {
-    width: 400px; /* Adjust size as needed */
+    width: 800px; /* Adjust size as needed */
     height: auto;
     display: block;
 }
@@ -158,7 +158,7 @@ ul {
     justify-content: center; /* Center horizontally */
     position: absolute;
     top: 500px;
-    left: 800px;
+    left: 500px;
 }
 
 .square-button2 {

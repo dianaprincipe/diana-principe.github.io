@@ -98,14 +98,39 @@ ul {
     max-width: 600px;
 }
 
-.close-btn {
-    color: #3E2723;
-    float: right;
-    font-size: 1.5rem;
-    font-weight: bold;
-    cursor: pointer;
+
+/* Basic button styling */
+.round-button {
+    display: inline-block; /* Ensures the button can be inline with other elements */
+    padding: 15px 30px; /* Adjust padding for button size */
+    border-radius: 50%; /* Fully rounded corners */
+    border: 2px solid #3E2723; /* Border color */
+    background-color: #D7CCC8; /* Button background color */
+    color: #3E2723; /* Text color */
+    font-family: 'League Spartan', sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text alignment */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    line-height: 1.2; /* Adjusts the line-height for better centering */
+    width: 200px; /* Fixed width */
+    height: 200px; /* Fixed height */
+    display: flex; /* Flexbox for centering content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
 }
 
-.close-btn:hover {
-    color: #6D4C41;
+/* Hover effect */
+.round-button:hover {
+    background-color: #3E2723; /* Darker background on hover */
+    color: #D7CCC8; /* Lighter text color on hover */
+    border-color: #D7CCC8; /* Border color change on hover */
+}
+
+/* Focus effect (for accessibility) */
+.round-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add custom focus outline */
 }

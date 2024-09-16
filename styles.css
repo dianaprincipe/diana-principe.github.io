@@ -17,13 +17,30 @@ header {
     
 }
 
-header h1 {
+header h1.typing {
     font-family: 'Roboto Mono';
     color: #ffffff;
     font-size: 18px;
     background-clip: text;
     text-align: left;
     padding: 2rem;
+    overflow: hidden; /* Ensures text is clipped when animating */
+    white-space: nowrap; /* Keeps the text in one line */
+    border-right: 0.15em solid orange; /* The cursor effect */
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+}
+
+
+/* Keyframes for typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Keyframes for blinking cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
 }
 
 header p {
@@ -108,7 +125,7 @@ ul {
     color: #ffffff; /* Text color */
     font-family: 'DM Sans', sans-serif; /* Font style */
     font-size: 14px; /* Font size */
-    font-weight: 500;
+    font-weight: 600;
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
@@ -133,7 +150,7 @@ ul {
     color: #ffffff; /* Text color */
     font-family: 'DM Sans', sans-serif; /* Font style */
     font-size: 14px; /* Font size */
-    font-weight: 500;
+    font-weight: 600;
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */

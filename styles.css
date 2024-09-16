@@ -93,7 +93,7 @@ nav a {
 .image-link {
     position: absolute;
     top: 170px;
-    right: 120px;
+    right: 100px;
     text-decoration: none; /* Removes underline from link */
 }
 

@@ -44,7 +44,11 @@ line-height: 160%; /* 25.6px */
 }
 
 nav {
-    margin-bottom: 1rem;
+display: flex;
+padding: 12px 14px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
 }
 
 nav a {

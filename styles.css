@@ -20,7 +20,7 @@ header {
 h1.typing {
     font-family: 'Monaco', Monospace;
     color: #000000;
-    font-size: 20px;
+    font-size: 30px;
     background-clip: text;
     text-align: left;
     padding: 2rem;
@@ -53,7 +53,7 @@ header p1 {
 
     ccolor: #000000;
     font-family: 'Monaco', Monospace;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 100%;
     position: absolute;
@@ -65,7 +65,7 @@ header p2 {
 
     ccolor: #000000;
     font-family: 'Monaco', Monospace;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 300;
     line-height: 100%;
     position: absolute;

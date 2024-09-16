@@ -47,7 +47,7 @@ nav {
 display: flex;
 padding: 12px 14px;
 justify-content: space-between;
-align-items: center;
+align-items: left;
 align-self: stretch;
 }
 

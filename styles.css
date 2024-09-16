@@ -1,13 +1,14 @@
 body {
     background-color: #DAA06D ;
     color: #3E2723;
-    font-family: 'Arial', sans-serif;
+    font-family: Geist;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
+    font-family: Geist;
     border-radius: rounded-lg;
     border: 1px solid var(--Border-Default, #E5E5E5);
     background: var(--Surface-Primary, #FFF);
@@ -20,6 +21,7 @@ header {
 }
 
 header h1 {
+    font-family: Geist;
     background: var(--unicorn-gradient, linear-gradient(90deg, #B732F5 0%, #FF85E3 34%, #65EDFF 100%));
     color: #3E2723;
     background-clip: text;
@@ -49,6 +51,7 @@ nav {
     justify-content: space-between;
     align-items: left;
     align-self: stretch;
+    font-family: Geist;
 }
 
 nav a {
@@ -60,15 +63,6 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-}
-
-button {
-    border-radius: calc(var(--radius) - 2px);
-    background: var(--Button-Primary-Filled-Default, #DAA06D);
-}
-
-button:hover {
-    background-color: #FFFFFF;
 }
 
 section {

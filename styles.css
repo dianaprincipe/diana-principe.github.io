@@ -11,7 +11,7 @@ header {
     font-size: medium;
     border-radius: rounded-lg;
     background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
-    color: #d6e0ed;
+    color: #fff42c;
     text-align: center;
     padding: 2rem;
     
@@ -19,7 +19,7 @@ header {
 
 header h1 {
     font-family: 'Orbitron', sans-serif;
-    color: #d6e0ed;
+    color: #fff42c;
     background-clip: text;
     text-align: center;
     padding: 2rem;
@@ -29,15 +29,14 @@ header h1 {
 
 header p {
 
-    color: var(--Text-Primary, ##fff42c);
+    color: var(--Text-Primary, #fff42c);
     font-feature-settings: 'liga' off, 'clig' off;
 
-    /* B2/Geist/14/Medium */
     font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
-    line-height: 145%; /* 20.3px */
+    line-height: 145%;
 }
 
 nav {

@@ -117,7 +117,7 @@ ul {
     height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    justify-content: left; /* Center horizontally */
     margin-bottom: 20px; /* Space between buttons */
 }
 
@@ -140,7 +140,7 @@ ul {
     height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
+    justify-content: left; /* Center horizontally */
     margin-bottom: 20px; /* Space between buttons */
 }
 

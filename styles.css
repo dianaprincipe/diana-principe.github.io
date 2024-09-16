@@ -103,7 +103,7 @@ ul {
 .round-button {
     display: inline-block; /* Ensures the button can be inline with other elements */
     padding: 15px 30px; /* Adjust padding for button size */
-    border-radius: 50%; /* Fully rounded corners */
+    border-radius: 8px; /* Fully rounded corners */
     border: 2px solid #3E2723; /* Border color */
     background-color: #D7CCC8; /* Button background color */
     color: #3E2723; /* Text color */
@@ -122,15 +122,22 @@ ul {
     justify-content: center; /* Center horizontally */
 }
 
+/* Container for aligning buttons to the left */
+.button-container {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: flex-start; /* Align buttons to the left */
+}
+
 /* Hover effect */
-.round-button:hover {
+.square-button:hover {
     background-color: #3E2723; /* Darker background on hover */
     color: #D7CCC8; /* Lighter text color on hover */
     border-color: #D7CCC8; /* Border color change on hover */
 }
 
 /* Focus effect (for accessibility) */
-.round-button:focus {
+.square-button:focus {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add custom focus outline */
 }

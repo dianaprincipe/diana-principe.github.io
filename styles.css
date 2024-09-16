@@ -103,6 +103,22 @@ nav a {
     display: block;
 }
 
+
+
+/* Styles for the image */
+.bomb-link {
+    position: absolute;
+    top: 170px;
+    right: 150px;
+    text-decoration: none; /* Removes underline from link */
+}
+
+.bomb-image {
+    width: 400px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+}
+
 nav a:hover {
     text-decoration: underline;
 }

@@ -104,8 +104,6 @@ ul {
     padding-left: 11.25px;
     padding-right: 11.25px;
     padding-top: 7.5px;
-    border-radius: 32px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
-    border: 2px solid #3E2723; /* Border color */
     background-color: #ff40bd; /* Button background color */
     background-size: auto;
     color: #ffffff; /* Text color */
@@ -121,7 +119,6 @@ ul {
     display: flex; /* Flexbox for centering content */
     align-items: left; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    margin-bottom: 20px; /* Space between buttons */
 }
 
 .square-button2 {
@@ -130,8 +127,6 @@ ul {
     padding-left: 11.25px;
     padding-right: 11.25px;
     padding-top: 7.5px;
-    border-radius: 32px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
-    border: 2px solid #3E2723; /* Border color */
     background-color: #ffaa1b; /* Button background color */
     background-size: auto;
     color: #ffffff; /* Text color */
@@ -147,7 +142,6 @@ ul {
     display: flex; /* Flexbox for centering content */
     align-items: left; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    margin-bottom: 20px; /* Space between buttons */
 }
 
 /* Container for aligning buttons to the left */

@@ -27,7 +27,7 @@ h1.typing {
     overflow: hidden; /* Ensures text is clipped when animating */
     white-space: nowrap; /* Keeps the text in one line */
     border-right: 0.15em solid orange; /* The cursor effect */
-    animation: typing 10s steps(30, end), blink-caret 0.75s step-end paused;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 
@@ -40,7 +40,7 @@ h1.typing {
 /* Keyframes for blinking cursor */
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    25% { border-color: white; }
+    50% { border-color: white; }
 }
 
 /* Stop the cursor blinking after typing is done */
@@ -72,6 +72,21 @@ nav a {
     text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
+}
+
+/* Styles for the image */
+.image-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-decoration: none; /* Removes underline from link */
+}
+
+.rocket-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    display: block;
+    border: 2px solid #333; /* Optional: adds border around image */
 }
 
 nav a:hover {

@@ -116,7 +116,6 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     width: 180px; /* Fixed width */
     height: auto; /* Fixed height */
-    display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
 }
@@ -141,7 +140,6 @@ ul {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     width: 180px; /* Fixed width */
     height: 30px; /* Fixed height */
-    display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
 }

@@ -153,16 +153,16 @@ ul {
 
 /* Hover effect */
 .square-button1:hover {
-    background-color: #ffffff; /* Darker background on hover */
-    color: #000000; /* Lighter text color on hover */
-    border-color: #ffffff; /* Border color change on hover */
+    background-color: #6b049c; /* Darker background on hover */
+    color: #ffffff; /* Lighter text color on hover */
+    border-color: #6b049c; /* Border color change on hover */
 }
 
 /* Hover effect */
 .square-button2:hover {
-    background-color: #ffffff; /* Darker background on hover */
-    color: #000000; /* Lighter text color on hover */
-    border-color: #ffffff; /* Border color change on hover */
+    background-color: #d9a103; /* Darker background on hover */
+    color: #ffffff; /* Lighter text color on hover */
+    border-color: #d9a103; /* Border color change on hover */
 }
 
 

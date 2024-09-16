@@ -11,7 +11,7 @@ header {
     font-size: medium;
     border-radius: rounded-lg;
     background: #ffffff;
-    color: #fff42c;
+    color: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
     text-align: center;
     padding: 2rem;
     

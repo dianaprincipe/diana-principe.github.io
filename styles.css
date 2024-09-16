@@ -156,6 +156,9 @@ ul {
     display: flex; /* Flexbox for centering content */
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
+    position: absolute;
+    top: 50px;
+    right: 50px;
 }
 
 .square-button2 {

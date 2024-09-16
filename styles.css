@@ -77,8 +77,8 @@ nav a {
 /* Styles for the image */
 .image-link {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 50px;
+    right: 50px;
     text-decoration: none; /* Removes underline from link */
 }
 

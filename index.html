@@ -3,74 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diana Principe - QA Analyst</title>
+    <title>Diana Principe - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Diana Principe</h1>
-        <p>QA Analyst</p>
-        <p class="contact">
-            📞 027-246-1955 ∙ Auckland, AKL 1061<br>
-            📧 <a href="mailto:diana.principe@yahoo.com">diana.principe@yahoo.com</a><br>
-            🔗 <a href="https://www.linkedin.com/in/diana-principe/" target="_blank">LinkedIn Profile</a>
-        </p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </nav>
+        <h1>Hello and Welcome</h1>
+        <p>Welcome to my portfolio. Explore my experience and skills in the field of Quality Assurance.</p>
+        <button id="contact-btn">Contact Me</button>
     </header>
-    <section id="summary">
-        <h2>Professional Summary</h2>
-        <p>A passionate quality assurance analyst with over 7 years of experience and ISTQB certification who pays attention to detail, having successfully set up automation and test strategies to improve product quality and efficiency. Ability to work well with stakeholders to ensure tangible results besides enhancing processes. Demonstrated capability of exploring unfamiliar fields, pioneering new approaches, and leading multiple projects simultaneously.</p>
-    </section>
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <!-- Experience Entries Here -->
-        <div class="experience-item" id="shiba-inu">
-            <h3>Shiba Inu - Wilmington, DE (Remote)</h3>
-            <p><strong>QA Analyst</strong> | Mar 2024 - Present</p>
-            <ul>
-                <li>Responsible for leading, managing, implementing, and executing solid test plans, strategies, documentation, and techniques for 6+ projects in the Blockchain industry.</li>
-                <li>Using Playwright—TypeScript, designed, developed, and executed automated tests, decreasing test execution time by 80% and increasing test coverage by 60%.</li>
-                <li>Developed and executed Test Scripts using Postman - JavaScript, increasing database and architecture quality by 15%.</li>
-                <!-- More Items -->
-            </ul>
+    
+    <!-- Contact Me Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Me</h2>
+            <p><strong>Phone:</strong> 027-246-1955</p>
+            <p><strong>Email:</strong> <a href="mailto:diana.principe@yahoo.com">diana.principe@yahoo.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/diana-principe/" target="_blank">LinkedIn Profile</a></p>
         </div>
-        <!-- Repeat for other positions -->
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>STI College - Makati City, PH</strong><br>
-        Bachelor of Science - Information Technology, Mar 2016</p>
-    </section>
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>API Testing Foundations</li>
-            <li>ISTQB® Certified Tester Foundation Level (CTFL)</li>
-            <!-- More Certifications -->
-        </ul>
-    </section>
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Playwright, Selenium, Test Complete</li>
-            <li>Postman, SQL, PostgreSQL</li>
-            <!-- More Skills -->
-        </ul>
-    </section>
-    <section id="references">
-        <h2>Character References</h2>
-        <div class="reference">
-            <p><strong>Jérôme Defillon</strong><br>
-            CTO / VP of Technology, Shiba Inu<br>
-            <a href="mailto:jerome.defillon@gmail.com">jerome.defillon@gmail.com</a><br>
-            +33643628659</p>
-        </div>
-        <div class="reference">
-            <p><strong>Joanna Loraine Guieb</strong><br>
-            Team Leader, Elevated Play Philippines Inc.<br>
-            <a href="mailto:joy.guieb@elevated.plus">joy.guieb@elevated.plus</a><br>
-            +639954587078</p>
-        </div>
-    </section>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>

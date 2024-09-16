@@ -146,8 +146,8 @@ ul {
 
 /* Container for aligning buttons to the left */
 .button-container {
-    display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Stack buttons vertically */
+    display: center; /* Use flexbox for alignment */
+    flex-direction: row-reverse; /* Stack buttons vertically */
     align-items: flex-start; /* Align buttons to the left */
 }
 

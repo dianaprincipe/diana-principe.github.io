@@ -101,7 +101,7 @@ ul {
 .square-button1 {
     display: inline-block; /* Ensures the button can be inline with other elements */
     padding: 15px 30px; /* Adjust padding for button size */
-    border-radius: 8px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
+    border-radius: 16px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     border: 2px solid #3E2723; /* Border color */
     background-color: #ff40bd; /* Button background color */
     background-size: auto;
@@ -124,7 +124,7 @@ ul {
 .square-button2 {
     display: inline-block; /* Ensures the button can be inline with other elements */
     padding: 15px 30px; /* Adjust padding for button size */
-    border-radius: 8px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
+    border-radius: 16px; /* Slightly rounded corners (can be adjusted or removed for a fully square button) */
     border: 2px solid #3E2723; /* Border color */
     background-color: #ffaa1b; /* Button background color */
     background-size: auto;

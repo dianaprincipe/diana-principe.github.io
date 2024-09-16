@@ -57,6 +57,7 @@ header p1 {
     font-weight: 600;
     line-height: 100%;
     position: absolute;
+    text-align: left;
     top: 280px;
     left: 70px;
 }
@@ -69,6 +70,7 @@ header p2 {
     font-weight: 600;
     line-height: 100%;
     position: absolute;
+    text-align: left;
     top: 330px;
     left: 70px;
 }

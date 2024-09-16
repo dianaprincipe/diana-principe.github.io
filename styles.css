@@ -116,8 +116,8 @@ ul {
     width: 180px; /* Fixed width */
     height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
-    align-items: center; /* Center vertically */
-    justify-content: left; /* Center horizontally */
+    align-items: left; /* Center vertically */
+    justify-content: center; /* Center horizontally */
     margin-bottom: 20px; /* Space between buttons */
 }
 
@@ -139,8 +139,8 @@ ul {
     width: 180px; /* Fixed width */
     height: 30px; /* Fixed height */
     display: flex; /* Flexbox for centering content */
-    align-items: center; /* Center vertically */
-    justify-content: left; /* Center horizontally */
+    align-items: left; /* Center vertically */
+    justify-content: center; /* Center horizontally */
     margin-bottom: 20px; /* Space between buttons */
 }
 

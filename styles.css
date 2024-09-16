@@ -147,7 +147,7 @@ ul {
 /* Container for aligning buttons to the left */
 .button-container {
     display: center; /* Use flexbox for alignment */
-    flex-direction: row-reverse; /* Stack buttons vertically */
+    flex-direction: row; /* Stack buttons vertically */
     align-items: flex-start; /* Align buttons to the left */
 }
 
@@ -171,3 +171,5 @@ ul {
     outline: none; /* Remove default outline */
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add custom focus outline */
 }
+
+

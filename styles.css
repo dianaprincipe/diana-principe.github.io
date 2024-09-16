@@ -110,7 +110,7 @@ ul {
     background-size: auto;
     color: #ffffff; /* Text color */
     font-family: 'League Spartan', sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
+    font-size: 14px; /* Font size */
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
@@ -135,7 +135,7 @@ ul {
     background-size: auto;
     color: #ffffff; /* Text color */
     font-family: 'League Spartan', sans-serif; /* Font style */
-    font-size: 16px; /* Font size */
+    font-size: 14px; /* Font size */
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */

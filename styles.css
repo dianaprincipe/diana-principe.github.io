@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    font-family: 'Monaco', Monospace;
+    font-family: inherit;
     font-size: medium;
     border-radius: rounded-lg;
     background: #ffffff;
@@ -18,7 +18,7 @@ header {
 }
 
 h1.typing {
-    font-family: 'Monaco', Monospace;
+    font-family: inherit;
     color: #000000;
     font-size: 30px;
     background-clip: text;

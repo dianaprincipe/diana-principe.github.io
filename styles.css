@@ -19,7 +19,8 @@ header {
 
 header h1 {
     font-family: 'Roboto Mono';
-    color: #d6e0ed;
+    color: #ffffff;
+    font-size: 18px;
     background-clip: text;
     text-align: left;
     padding: 2rem;
@@ -27,12 +28,9 @@ header h1 {
 
 header p {
 
-    color: var(--Text-Primary, #fff42c);
-    font-feature-settings: 'liga' off, 'clig' off;
-
+    color: #ffffff;
     font-family: 'League Spartan', sans-serif;
     font-size: 40px;
-    font-style: normal;
     font-weight: 500;
     line-height: 145%;
 }

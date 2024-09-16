@@ -108,7 +108,7 @@ ul {
     color: #ffffff; /* Text color */
     font-family: 'DM Sans', sans-serif; /* Font style */
     font-size: 14px; /* Font size */
-    font-weight: 700;
+    font-weight: 500;
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
@@ -133,7 +133,7 @@ ul {
     color: #ffffff; /* Text color */
     font-family: 'DM Sans', sans-serif; /* Font style */
     font-size: 14px; /* Font size */
-    font-weight: 700;
+    font-weight: 500;
     text-align: center; /* Center text alignment */
     text-decoration: none; /* Remove underline from links */
     transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
@@ -150,21 +150,19 @@ ul {
 .button-container {
     display: flex; /* Use flexbox for alignment */
     flex-direction: row; /* Stack buttons vertically */
-    gap: 10px;
+    gap: 20px;
 }
 
 /* Hover effect */
 .square-button1:hover {
     background-color: #6b049c; /* Darker background on hover */
     color: #ffffff; /* Lighter text color on hover */
-    border-color: #6b049c; /* Border color change on hover */
 }
 
 /* Hover effect */
 .square-button2:hover {
     background-color: #6b049c; /* Darker background on hover */
     color: #ffffff; /* Lighter text color on hover */
-    border-color: #6b049c; /* Border color change on hover */
 }
 
 

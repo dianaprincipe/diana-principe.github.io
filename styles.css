@@ -27,7 +27,7 @@ h1.typing {
     overflow: hidden; /* Ensures text is clipped when animating */
     white-space: nowrap; /* Keeps the text in one line */
     border-right: 0.15em solid orange; /* The cursor effect */
-    animation: typing 4s steps(30, end), blink-caret 0.75s step-end infinite;
+    animation: typing 4s steps(30, end), blink-caret 0.75s step-end paused;
 }
 
 
@@ -83,10 +83,9 @@ nav a {
 }
 
 .rocket-image {
-    width: 150px; /* Adjust size as needed */
+    width: 400px; /* Adjust size as needed */
     height: auto;
     display: block;
-    border: 2px solid #333; /* Optional: adds border around image */
 }
 
 nav a:hover {

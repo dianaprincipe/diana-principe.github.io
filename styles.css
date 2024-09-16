@@ -7,24 +7,22 @@ body {
 }
 
 header {
-    font-family: Cosmic Octo;
+    font-family: 'Orbitron', sans-serif;
     font-size: medium;
     border-radius: rounded-lg;
     background: var(--blue-gradient, linear-gradient(90deg, #000000, #3533cd));
-    color: #3E2723;
+    color: #d6e0ed;
     text-align: center;
     padding: 2rem;
-    border-bottom: 2px solid #3E2723;
     
 }
 
 header h1 {
-    font-family: Geist;
-    color: #3E2723;
+    font-family: 'Orbitron', sans-serif;
+    color: #d6e0ed;
     background-clip: text;
     text-align: center;
     padding: 2rem;
-    border-bottom: 2px solid #3E2723;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

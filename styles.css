@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    font-family: "YAFdJmNtp_I 0", "_fb_", "auto"
+    font-family: 'YAFdJmNtp_I 0';
     color: #d6e0ed;
     background-clip: text;
     text-align: center;

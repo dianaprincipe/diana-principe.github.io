@@ -152,11 +152,19 @@ ul {
 }
 
 /* Hover effect */
-.square-button:hover {
-    background-color: #3E2723; /* Darker background on hover */
-    color: #D7CCC8; /* Lighter text color on hover */
-    border-color: #D7CCC8; /* Border color change on hover */
+.square-button1:hover {
+    background-color: #ffffff; /* Darker background on hover */
+    color: #000000; /* Lighter text color on hover */
+    border-color: #ffffff; /* Border color change on hover */
 }
+
+/* Hover effect */
+.square-button2:hover {
+    background-color: #ffffff; /* Darker background on hover */
+    color: #000000; /* Lighter text color on hover */
+    border-color: #ffffff; /* Border color change on hover */
+}
+
 
 /* Focus effect (for accessibility) */
 .square-button:focus {

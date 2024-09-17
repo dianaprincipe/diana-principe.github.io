@@ -1,7 +1,9 @@
 
 header {
     font-family: inherit;
-    font-size: medium;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
     border-radius: rounded-lg;
     background: #ffffff;
     color: #000000;
@@ -14,6 +16,8 @@ h1.typing {
     font-family: inherit;
     color: #000000;
     font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
     background-clip: text;
     text-align: left;
     padding: 2rem;

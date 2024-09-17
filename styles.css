@@ -25,6 +25,17 @@ h1.typing {
     animation: typing 5s steps(30, end), blink-caret 1.50s step-end paused;
 }
 
+h2 {
+    font-family: inherit;
+    color: #000000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    background-clip: text;
+    text-align: left;
+    padding: 2rem;
+}
+
 /* Keyframes for typing effect */
 @keyframes typing {
     from { width: 0; }
